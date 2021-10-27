@@ -1,0 +1,43 @@
+
+   stage
+- targets:
+     - "http://backoffice-api-stage-1.us-east-1.elasticbeanstalk.com/"
+  labels:
+    name: "backoffice-stage"
+- targets:
+     - "https://utilitygo-api-stage.widergydev.com/health_check/all"
+  labels:
+    name: "utilitygo-stage"
+- targets:
+     - "https://utilitygo-api-dev.widergydev.com/health_check/all"
+  labels:
+    name: "utilitygo-dev"
+- targets:
+     - "iot-api-stage.us-east-1.elasticbeanstalk.com"
+  labels:
+    name: "iot-stage"
+- targets:
+     - "https://chatbot-api-dev.widergydev.com/api/v1/status"
+  labels:
+    name: "chatbot-dev"
+- targets:
+     - "https://chatbot-api-stage.widergydev.com/api/v1/status"
+  labels:
+    name: "chatbot-stage"
+- targets:
+     - "https://crewsourcing-api-dev.widergydev.com/health_check/all"
+  labels:
+    name: "crewsourcing-dev"
+- targets:
+     - "https://crewsourcing-api-stage.widergydev.com/health_check/all"
+  labels:
+    name: "crewsourcing-stage"
+- targets:
+     - "https://mrp-api-dev.widergydev.com/health_check/all"
+  labels:
+    name: "mrp-dev"
+- targets:
+     - "https://mrp-api-stage.widergydev.com/health_check/all"
+  labels:
+    name: "mrp-stage"
+

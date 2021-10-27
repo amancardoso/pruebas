@@ -1,0 +1,36 @@
+
+ PROD
+
+- targets:
+     - "http://backoffice-api-1.us-east-1.elasticbeanstalk.com"
+  labels:
+    name: "backoffice"
+- targets:
+     - "https://chatbot-api.widergy.com/api/v1/status"
+  labels:
+    name: "chatbot"
+- targets:
+     - "https://crewsourcing-api.widergy.com/health_check/all"
+  labels:
+    name: "crewsourcing"
+- targets:
+     - "https://smart-reader-platform.widergy.com/health_check/all"
+  labels:
+    name: "smart-reader"
+- targets:
+     - "https://iot-api.widergy.com/"
+  labels:
+    name: "iot"
+- targets:
+     - "https://utilitygo-api.widergy.com/health_check/all"
+  labels:
+    name: "utilitygo"
+- targets:
+     - "https://utilitygo-api-2.widergy.com/health_check/all"
+  labels:
+    name: "utilitygo-2"
+- targets:
+     - "https://notifications-api.widergy.com"
+  labels:
+    name: "notifications"
+
